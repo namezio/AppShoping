@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_keyboard"
+            android:icon="@drawable/ic_keyboard_black_24dp"
+            android:title="Keyboard" />
+        <item
+            android:id="@+id/nav_mouse"
+            android:icon="@drawable/ic_mouse_black_24dp"
+            android:title="Mouse" />
+        <item
+            android:id="@+id/nav_headphone"
+            android:icon="@drawable/ic_headset_mic_black_24dp"
+            android:title="Headphone" />
+        <item
+            android:id="@+id/nav_gamepad"
+            android:icon="@drawable/ic_gamepad_black_24dp"
+            android:title="Gamepad" />
+
+    </group>
+
+    <item android:title="About Us">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="Information" />
+            <item
+                android:id="@+id/nav_contract"
+                android:icon="@drawable/ic_contacts_black_24dp"
+                android:title="Contract" />
+        </menu>
+    </item>
+
+</menu>
